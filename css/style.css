@@ -1,0 +1,40 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    padding: 1px;
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div#map {
+    background-color: red;
+    flex: 1;
+    height: 100%;
+    width: 100vw;
+}
+
+footer {
+    border-top: 1px solid black
+}
+
+ul.footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px;
+    gap: 10px;
+    padding: 10px;
+}
+
